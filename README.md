@@ -1,184 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ravi | Web Developer</title>
+# Hi there 👋, I'm Ravinder Pal Singh
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Segoe UI", Tahoma, sans-serif;
-    }
+<h3 align="center">B.Sc. Computer Science & Applications Student | Aspiring Software Developer | Lifelong Learner</h3>
 
-    body {
-      background-color: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
+---
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
+## 🚀 About Me
 
-    header {
-      background: linear-gradient(135deg, #1e3a8a, #020617);
-      padding: 70px 20px;
-      text-align: center;
-    }
+I'm **Ravinder Pal Singh**, a **B.Sc. Computer Science & Applications** student based in **Chandigarh, India**. I enjoy learning new technologies, solving programming challenges, and building practical software projects that improve my development skills.
 
-    header h1 {
-      font-size: 2.8rem;
-    }
+I'm currently focused on strengthening my knowledge of software development, data structures, web technologies, and problem-solving. My goal is to become a skilled software developer by continuously learning, building projects, and contributing to open-source communities.
 
-    header h2 {
-      font-weight: 400;
-      margin-top: 10px;
-      color: #cbd5f5;
-    }
+* 🎓 B.Sc. Computer Science & Applications Student
+* 📍 Chandigarh, India
+* 💻 Passionate about Software Development
+* 🌱 Currently learning Full-Stack Development and Data Structures & Algorithms
+* 🤝 Interested in Open Source Collaboration
+* 🚀 Always eager to learn new technologies and best practices
 
-    header p {
-      margin-top: 15px;
-      color: #94a3b8;
-    }
+---
 
-    section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 60px 20px;
-    }
+## 🛠️ Tech Stack
 
-    h3 {
-      font-size: 1.8rem;
-      margin-bottom: 25px;
-      border-left: 5px solid #38bdf8;
-      padding-left: 12px;
-    }
+### Programming Languages
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-      gap: 20px;
-    }
+* C
+* C++
+* Java
+* Python
+* JavaScript
 
-    .card {
-      background: #020617;
-      border: 1px solid #1e293b;
-      padding: 20px;
-      border-radius: 10px;
-    }
+### Web Development
 
-    .card h4 {
-      margin-bottom: 10px;
-      color: #38bdf8;
-    }
+* HTML5
+* CSS3
+* Bootstrap
+* React (Learning)
+* Node.js (Learning)
 
-    ul {
-      padding-left: 20px;
-    }
+### Database
 
-    footer {
-      background: #020617;
-      text-align: center;
-      padding: 30px;
-      color: #94a3b8;
-      font-size: 0.9rem;
-    }
+* MySQL
+* MongoDB (Learning)
 
-    .contact p {
-      margin: 8px 0;
-    }
+### Tools & Technologies
 
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 18px;
-      border-radius: 6px;
-      background: #38bdf8;
-      color: #020617;
-      font-weight: 600;
-    }
-  </style>
-</head>
+* Git
+* GitHub
+* VS Code
+* Postman
+* Linux
+* Canva
 
-<body>
+---
 
-<header>
-  <h1>Ravi</h1>
-  <h2>Web Developer</h2>
-  <p>Student | India</p>
-</header>
+## 📚 Currently Learning
 
-<section>
-  <h3>👨‍💻 About Me</h3>
-  <p>
-    I am a passionate student and aspiring <strong>Web Developer</strong> with a strong interest in building
-    responsive, user-friendly websites. I enjoy working with modern web technologies and continuously
-    improving my skills through hands-on practice and projects.
-  </p>
-</section>
+* Data Structures & Algorithms
+* Full-Stack Web Development
+* Git & GitHub Best Practices
+* REST APIs
+* Database Design
 
-<section>
-  <h3>🧠 Skills</h3>
-  <div class="grid">
-    <div class="card">
-      <h4>Programming</h4>
-      <ul>
-        <li>C++</li>
-        <li>JavaScript</li>
-      </ul>
-    </div>
+---
 
-    <div class="card">
-      <h4>Frontend</h4>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-    </div>
+## 🎯 Goals for 2026
 
-    <div class="card">
-      <h4>Database</h4>
-      <ul>
-        <li>MySQL</li>
-      </ul>
-    </div>
+* Build real-world full-stack projects.
+* Strengthen problem-solving skills.
+* Contribute to open-source projects.
+* Complete industry-recognized certifications.
+* Secure a software development internship.
 
-    <div class="card">
-      <h4>Tools</h4>
-      <ul>
-        <li>Git & GitHub</li>
-        <li>Linux</li>
-      </ul>
-    </div>
-  </div>
-</section>
+---
 
-<section>
-  <h3>🚀 Projects</h3>
-  <div class="card">
-    <p>
-      Currently working on web development projects to strengthen frontend and backend fundamentals.
-      More professional projects will be added soon.
-    </p>
-  </div>
-</section>
+## 📊 GitHub Stats
 
-<section class="contact">
-  <h3>📫 Contact</h3>
-  <p>📧 Email: <a href="mailto:bycgamechanger-pixel@gmail.com">bycgamechanger-pixel@gmail.com</a></p>
-  <p>🐙 GitHub: <a href="https://github.com/" target="_blank">github.com</a></p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME\&show_icons=true\&theme=tokyonight)
 
-  <a class="btn" href="mailto:bycgamechanger-pixel@gmail.com">Contact Me</a>
-</section>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME\&layout=compact\&theme=tokyonight)
 
-<footer>
-  © 2026 Ravi • Web Developer
-</footer>
+![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME\&theme=tokyonight)
 
-</body>
-</html>
+---
+
+## 📂 Featured Projects
+
+> Add your best projects here as you build them.
+
+* 💼 Student Management System
+* 🌦️ Weather Application
+* 📝 To-Do List App
+* 🌐 Portfolio Website
+* 📚 Library Management System
+
+---
+
+## 🤝 Connect With Me
+
+* 📍 Chandigarh, India
+* 💼 Open to internships and learning opportunities
+
+> *Add your LinkedIn, portfolio, or professional email here when you're ready.*
+
+---
+
+## 💡 Favorite Quote
+
+> **"Success doesn't come from what you do occasionally. It comes from what you do consistently."**
+
+---
+
+⭐ *Thank you for visiting my profile! Feel free to explore my repositories and connect with me.*
+
