@@ -1,95 +1,184 @@
-<!-- Top Animated/Gradient Banner Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/ Republic/api?type=waving&color=gradient&customColorList=1,d4239e,1e88e5,26a69a&height=220&section=header&text=Ravinder&fontSize=70&fontColor=ffffff&animation=twinkling" alt="Ravinder's Banner" />
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravi | Web Developer</title>
 
-<!-- Subtitle / Location Layout -->
-<div align="center">
-  <code style="color: #e91e63; font-size: 16px; font-weight: bold; font-family: 'Courier New', monospace;">⚡ B.Sc. Computer Science & Applications Student ⚡</code>
-  <br />
-  <code style="color: #00bcd4; font-size: 14px; font-family: 'Courier New', monospace;">📍 Based in Chandigarh, India • Age: 21</code>
-</div>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
 
-<br />
+    body {
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
 
-<!-- About Me Section with Custom Card Styling -->
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28px"> ✨ About Me
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #020617);
+      padding: 70px 20px;
+      text-align: center;
+    }
 
-<div style="background: linear-gradient(135deg, #1e1e2f 0%, #252542 100%); padding: 20px; border-radius: 12px; border-left: 6px solid #ff4081; box-shadow: 0 4px 20px rgba(0,0,0,0.3); color: #ffffff;">
-  <p style="font-size: 16px; line-height: 1.6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
-    🚀 Hello World! I am a passionate <b style="color: #ff4081;">Computer Science & Applications</b> undergraduate student dedicated to building robust software solutions and analyzing complex computing architectures. I thrive at the intersection of logical problem-solving and modern web engineering.
+    header h1 {
+      font-size: 2.8rem;
+    }
+
+    header h2 {
+      font-weight: 400;
+      margin-top: 10px;
+      color: #cbd5f5;
+    }
+
+    header p {
+      margin-top: 15px;
+      color: #94a3b8;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .card h4 {
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      background: #020617;
+      text-align: center;
+      padding: 30px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 18px;
+      border-radius: 6px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Ravi</h1>
+  <h2>Web Developer</h2>
+  <p>Student | India</p>
+</header>
+
+<section>
+  <h3>👨‍💻 About Me</h3>
+  <p>
+    I am a passionate student and aspiring <strong>Web Developer</strong> with a strong interest in building
+    responsive, user-friendly websites. I enjoy working with modern web technologies and continuously
+    improving my skills through hands-on practice and projects.
   </p>
-  
-  <ul style="list-style-type: '💎'; padding-left: 20px; font-size: 15px; color: #e0e0e0;">
-    <li> <b>Current Focus:</b> Deepening knowledge in Advanced Data Structures & Full-Stack Architectures.</li>
-    <li> <b>Aspirations:</b> Collaborating on impactful open-source projects and scalable software design.</li>
-    <li> <b>Philosophy:</b> Transforming complex logic into elegant, high-performing code.</li>
-  </ul>
-</div>
+</section>
 
-<br />
+<section>
+  <h3>🧠 Skills</h3>
+  <div class="grid">
+    <div class="card">
+      <h4>Programming</h4>
+      <ul>
+        <li>C++</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
 
-<!-- Technical Skills Section with Colorful Badges -->
-## 🛠️ My Tech Stack & Skills
+    <div class="card">
+      <h4>Frontend</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
 
-### 💻 Languages & Scripting
-<p align="left">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+    <div class="card">
+      <h4>Database</h4>
+      <ul>
+        <li>MySQL</li>
+      </ul>
+    </div>
 
-### 🌐 Web Frontend & Databases
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white" />
-</p>
+    <div class="card">
+      <h4>Tools</h4>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>Linux</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-### 🔧 Tools & Architectures
-<p align="left">
-  <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
+<section>
+  <h3>🚀 Projects</h3>
+  <div class="card">
+    <p>
+      Currently working on web development projects to strengthen frontend and backend fundamentals.
+      More professional projects will be added soon.
+    </p>
+  </div>
+</section>
 
-<br />
+<section class="contact">
+  <h3>📫 Contact</h3>
+  <p>📧 Email: <a href="mailto:bycgamechanger-pixel@gmail.com">bycgamechanger-pixel@gmail.com</a></p>
+  <p>🐙 GitHub: <a href="https://github.com/" target="_blank">github.com</a></p>
 
-<!-- Interactive GitHub Analytics Section -->
-## 📊 GitHub Analytics
+  <a class="btn" href="mailto:bycgamechanger-pixel@gmail.com">Contact Me</a>
+</section>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=dracula&hide_border=false&include_all_commits=true" alt="Ravinder's GitHub Stats" height="180M" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=dracula&hide_border=false" alt="Top Languages" height="180M" />
-</p>
+<footer>
+  © 2026 Ravi • Web Developer
+</footer>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dracula&hide_border=false" alt="GitHub Streak" />
-</p>
-
-<br />
-
-<!-- Connect & Contact Section -->
-## 🤝 Connect with Me
-
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Button" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Button" />
-  </a>
-</p>
-
-<br />
-
-<!-- Dynamic Footer Quote -->
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dracula" alt="Programming Quote" />
-</p>
--->
+</body>
+</html>
